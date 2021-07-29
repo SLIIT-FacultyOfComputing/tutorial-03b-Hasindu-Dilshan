@@ -31,3 +31,8 @@ int main() {
 }
 
 // Implement the Volume() function here
+
+// volume function returns volume of a box as integer
+int volume(int height, int width, int length){
+  return (height * width * length);
+}
